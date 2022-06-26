@@ -20,7 +20,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Ann Watkins</h1>
+        <h1>Conscious Anatomy England</h1>
+        <p>Taught by: Ann Watkins</p>
+        <p>↓↓ Scroll Down for Details ↓↓</p>
       </header>
       <div className="jumbotron section" style={parallaxHome}></div>
 
