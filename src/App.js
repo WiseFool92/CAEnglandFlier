@@ -91,11 +91,11 @@ function App() {
         </div>
       </div>
       <div className="jumbotron section2" style={parallaxWhiteLotus}></div>
-      <div className="container p-1">
+      <div className="container p-3">
         <div className="row">
           <h1>Course Dates and Information</h1>
           <hr />
-          <div className="col-md-12">
+          <div className="col-md-12 p-3">
             <h3>Cornwall England:</h3>
             <ul style={list}>
               <li>Dates: Sept. 6 - 9</li>
@@ -110,7 +110,7 @@ function App() {
             </ul>
           </div>
           <hr />
-          <div className="col-md-12">
+          <div className="col-md-12 p-3">
             <h3>**Three Course Special**</h3>
             <h3>
               Reactive Triads™: Basics and Subtleties of Muscle Testing
@@ -130,10 +130,10 @@ function App() {
               </li>
             </ul>
           </div>
-          <div className="col-md-12 p-5">
+          <div className="col-md-12 p-3">
             <h3>Course Offerings</h3>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 p-5">
             <h3>Reactive Triads™: Basics and Subtleties of Muscle Testing</h3>
             <ul style={list}>
               <li>Dates: Sept. 12</li>
@@ -146,28 +146,28 @@ function App() {
               </li>
             </ul>
           </div>
-          <div className="col-md-4">
-            <h3>Save $150.00 when you invest in all three courses: $647.00</h3>
+          <div className="col-md-4 p-5">
+            <h3>Reactive Triads™: Muscle Triads & Jolts</h3>
             <ul style={list}>
-              <li>Dates: Sept. 12 - 16</li>
+              <li>Dates: Sept. 13 - 14</li>
               <li>Time: 10:00am - 7:00pm w/Lunch Break</li>
               <li>
                 Registration:{" "}
-                <a href="https://www.consciousanatomy.com/offers/TDy4qw9t/checkout">
-                  https://www.consciousanatomy.com/offers/TDy4qw9t/checkout
+                <a href="https://www.consciousanatomy.com/offers/6FTVxKYo/checkout">
+                  https://www.consciousanatomy.com/offers/6FTVxKYo/checkout
                 </a>{" "}
               </li>
             </ul>
           </div>
-          <div className="col-md-4">
-            <h3>Save $150.00 when you invest in all three courses: $647.00</h3>
+          <div className="col-md-4 p-5">
+            <h3>Reactive Triads™: Muscle lymph and Mixed Triads</h3>
             <ul style={list}>
-              <li>Dates: Sept. 12 - 16</li>
+              <li>Dates: Sept. 15 - 16</li>
               <li>Time: 10:00am - 7:00pm w/Lunch Break</li>
               <li>
                 Registration:{" "}
-                <a href="https://www.consciousanatomy.com/offers/TDy4qw9t/checkout">
-                  https://www.consciousanatomy.com/offers/TDy4qw9t/checkout
+                <a href="https://www.consciousanatomy.com/offers/Botsvpmr/checkout">
+                  https://www.consciousanatomy.com/offers/Botsvpmr/checkout
                 </a>{" "}
               </li>
             </ul>
