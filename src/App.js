@@ -26,9 +26,9 @@ const parallaxWhiteLotus = {
 const list = {
   listStyleType: "none",
 };
-const card = {
-  width: "18rem",
-};
+// const card = {
+//   width: "18rem",
+// };
 
 function App() {
   return (
@@ -38,10 +38,129 @@ function App() {
         <p>Taught by: Ann Watkins</p>
         <p>↓↓ Scroll Down for Details ↓↓</p>
       </header>
+
       <div className="jumbotron section1" style={parallaxLanding}></div>
 
+      <div className="container p-3">
+        <div className="row">
+          <h1>Course Dates and Information</h1>
+          <hr />
+          <div className="col-md-12 p-3">
+            <h3>Cornwall England:</h3>
+            <ul style={list}>
+              <li>Dates: Sept. 6 - 9</li>
+              <li>Class: Conscious Anatomy™</li>
+              <li>Time: 10:00am - 3:30pm</li>
+              <li>
+                Registration:{" "}
+                <a href="https://www.consciousanatomy.com/conscious-anatomy-course-1-1-1">
+                  https://www.consciousanatomy.com/conscious-anatomy-course-1-1-1
+                </a>{" "}
+              </li>
+            </ul>
+          </div>
+          <hr />
+          <div className="col-md-12 p-3">
+            <h3>**Three Course Special**</h3>
+            <h3>
+              Reactive Triads™: Basics and Subtleties of Muscle Testing
+              <br />
+              <small>
+                Save $150.00 when you invest in all three courses: $647.00
+              </small>
+            </h3>
+            <ul style={list}>
+              <li>Dates: Sept. 12 - 16</li>
+              <li>Time: 10:00am - 7:00pm w/Lunch Break</li>
+              <li>
+                Registration:{" "}
+                <a href="https://www.consciousanatomy.com/offers/TDy4qw9t/checkout">
+                  https://www.consciousanatomy.com/offers/TDy4qw9t/checkout
+                </a>{" "}
+              </li>
+            </ul>
+          </div>
+          <div className="col-md-12 p-3">
+            <h3>Course Offerings</h3>
+          </div>
+          <div className="col-md-4 p-3">
+            <div class="card">
+              {/* <div class="card" style={card}> */}
+              <div class="card-body">
+                <h5 class="card-title">Reactive Triads™</h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  {" "}
+                  Basics and Subtleties of Muscle Testing
+                </h6>
+                <p class="card-text">
+                  <ul style={list}>
+                    <li>Sept. 12</li>
+                    <li>10:00am - 7:00pm w/Lunch</li>
+                    <li>
+                      {" "}
+                      <a href="https://www.consciousanatomy.com/offers/6FTVxKYo/checkout">
+                        Registration
+                      </a>{" "}
+                    </li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4 p-3">
+            <div class="card">
+              {/* <div class="card" style={card}> */}
+              <div class="card-body">
+                <h5 class="card-title">Reactive Triads™</h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  {" "}
+                  Muscle Triads & Jolts
+                </h6>
+                <p class="card-text">
+                  <ul style={list}>
+                    <li>Sept. 13 - 14</li>
+                    <li>10:00am - 7:00pm w/Lunch</li>
+                    <li>
+                      {" "}
+                      <a href="https://www.consciousanatomy.com/offers/6FTVxKYo/checkout">
+                        Registration
+                      </a>{" "}
+                    </li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4 p-3">
+            <div class="card">
+              {/* <div class="card" style={card}> */}
+              <div class="card-body">
+                <h5 class="card-title">Reactive Triads™</h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  {" "}
+                  Muscle lymph and Mixed Triads
+                </h6>
+                <p class="card-text">
+                  <ul style={list}>
+                    <li>Sept. 15 - 16</li>
+                    <li>10:00am - 7:00pm w/Lunch</li>
+                    <li>
+                      {" "}
+                      <a href="https://www.consciousanatomy.com/offers/Botsvpmr/checkout">
+                        Registration
+                      </a>{" "}
+                    </li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="jumbotron section2" style={parallaxWhiteLotus}></div>
+
       <div className="container p-1">
-        <h1>Conscious Anatomy™ Flier</h1>
         <div className="row">
           <h1>Accommodations</h1>
           <hr />
@@ -90,120 +209,6 @@ function App() {
             <a href="https://www.airbnb.co.uk/rooms/50915835">
               https://www.airbnb.co.uk/rooms/50915835
             </a>
-          </div>
-        </div>
-      </div>
-      <div className="jumbotron section2" style={parallaxWhiteLotus}></div>
-      <div className="container p-3">
-        <div className="row">
-          <h1>Course Dates and Information</h1>
-          <hr />
-          <div className="col-md-12 p-3">
-            <h3>Cornwall England:</h3>
-            <ul style={list}>
-              <li>Dates: Sept. 6 - 9</li>
-              <li>Class: Conscious Anatomy™</li>
-              <li>Time: 10:00am - 3:30pm</li>
-              <li>
-                Registration:{" "}
-                <a href="https://www.consciousanatomy.com/conscious-anatomy-course-1-1-1">
-                  https://www.consciousanatomy.com/conscious-anatomy-course-1-1-1
-                </a>{" "}
-              </li>
-            </ul>
-          </div>
-          <hr />
-          <div className="col-md-12 p-3">
-            <h3>**Three Course Special**</h3>
-            <h3>
-              Reactive Triads™: Basics and Subtleties of Muscle Testing
-              <br />
-              <small>
-                Save $150.00 when you invest in all three courses: $647.00
-              </small>
-            </h3>
-            <ul style={list}>
-              <li>Dates: Sept. 12 - 16</li>
-              <li>Time: 10:00am - 7:00pm w/Lunch Break</li>
-              <li>
-                Registration:{" "}
-                <a href="https://www.consciousanatomy.com/offers/TDy4qw9t/checkout">
-                  https://www.consciousanatomy.com/offers/TDy4qw9t/checkout
-                </a>{" "}
-              </li>
-            </ul>
-          </div>
-          <div className="col-md-12 p-3">
-            <h3>Course Offerings</h3>
-          </div>
-          <div className="col-md-4 p-5">
-            <h3>Reactive Triads™: Basics and Subtleties of Muscle Testing</h3>
-            <ul style={list}>
-              <li>Dates: Sept. 12</li>
-              <li>Time: 10:00am - 7:00pm w/Lunch Break</li>
-              <li>
-                Registration:{" "}
-                {/* <a href="https://www.consciousanatomy.com/offers/TDy4qw9t/checkout">
-                  https://www.consciousanatomy.com/offers/TDy4qw9t/checkout
-                </a>{" "} */}
-              </li>
-            </ul>
-          </div>
-          <div className="col-md-4 p-5">
-            <h3>Reactive Triads™: Muscle Triads & Jolts</h3>
-            <ul style={list}>
-              <li>Dates: Sept. 13 - 14</li>
-              <li>Time: 10:00am - 7:00pm w/Lunch Break</li>
-              <li>
-                Registration:{" "}
-                <a href="https://www.consciousanatomy.com/offers/6FTVxKYo/checkout">
-                  https://www.consciousanatomy.com/offers/6FTVxKYo/checkout
-                </a>{" "}
-              </li>
-            </ul>
-          </div>
-          <div className="col-md-4 p-5">
-            <div class="card" style={card}>
-              <div class="card-body">
-                <h5 class="card-title">Reactive Triads™</h5>
-                <h6 class="card-subtitle mb-2 text-muted">
-                  {" "}
-                  Muscle lymph and Mixed Triads
-                </h6>
-                <p class="card-text">
-                  <ul style={list}>
-                    <li>Dates: Sept. 15 - 16</li>
-                    <li>Time: 10:00am - 7:00pm w/Lunch Break</li>
-                    <li>
-                      {" "}
-                      <a href="https://www.consciousanatomy.com/offers/Botsvpmr/checkout">
-                        Registration
-                      </a>{" "}
-                    </li>
-                  </ul>
-                </p>
-                {/* <a
-                  href="https://www.consciousanatomy.com/offers/Botsvpmr/checkout"
-                  class="card-link"
-                >
-                  Card link
-                </a> */}
-                {/* <a href="#" class="card-link">
-                  Another link
-                </a> */}
-              </div>
-            </div>
-            <h3>Reactive Triads™: Muscle lymph and Mixed Triads</h3>
-            <ul style={list}>
-              <li>Dates: Sept. 15 - 16</li>
-              <li>Time: 10:00am - 7:00pm w/Lunch Break</li>
-              <li>
-                Registration:{" "}
-                <a href="https://www.consciousanatomy.com/offers/Botsvpmr/checkout">
-                  https://www.consciousanatomy.com/offers/Botsvpmr/checkout
-                </a>{" "}
-              </li>
-            </ul>
           </div>
         </div>
       </div>
