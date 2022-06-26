@@ -4,7 +4,7 @@ import redWaterLotus from "./img/redWaterLotus.webp";
 import whiteLotus3 from "./img/whiteLotus3.jpeg";
 // import Ann from './img/ann.jpg';
 // import annLogo from './img/annLogo.jpg';
-// import newHarmonyHeader from './img/newHarmonyHeader.jpg';
+import newHarmonyHeader from './img/newHarmonyHeader.jpg';
 
 // const homeBackground = {
 //   backgroundColor: "#37659D",
@@ -26,15 +26,20 @@ const parallaxWhiteLotus = {
 const list = {
   listStyleType: "none",
 };
-// const card = {
-//   width: "18rem",
-// };
-
+const courseSavings = {
+  color: "green",
+};
+const logoStyle = {
+  maxHeight: '8.2vh',
+  height: '100%',
+  cursor: 'pointer'
+}
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Conscious Anatomy™ England</h1>
+        <h1>Come Study with me in England</h1>
+        <h2>Conscious Anatomy™ & Reactive Triads Courses™</h2>
         <p>Taught by: Ann Watkins</p>
         <p>↓↓ Scroll Down for Details ↓↓</p>
       </header>
@@ -60,26 +65,39 @@ function App() {
             </ul>
           </div>
           <hr />
+
           <div className="col-md-12 p-3">
-            <h3>**Three Course Special**</h3>
-            <h3>
-              Reactive Triads™: Basics and Subtleties of Muscle Testing
-              <br />
-              <small>
+            <h1 style={courseSavings}>**Three Course Special**</h1>
+            <p style={courseSavings}>
+              <strong>
                 Save $150.00 when you invest in all three courses: $647.00
-              </small>
-            </h3>
-            <ul style={list}>
-              <li>Dates: Sept. 12 - 16</li>
-              <li>Time: 10:00am - 7:00pm w/Lunch Break</li>
-              <li>
-                Registration:{" "}
-                <a href="https://www.consciousanatomy.com/offers/TDy4qw9t/checkout">
-                  https://www.consciousanatomy.com/offers/TDy4qw9t/checkout
-                </a>{" "}
-              </li>
-            </ul>
+              </strong>
+            </p>
+
+            <div class="card">
+              {/* <div class="card" style={card}> */}
+              <div class="card-body">
+                <h5 class="card-title">Reactive Triads™</h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  {" "}
+                  2 Part Course + Basics and Subtleties of Muscle Testing
+                </h6>
+                <p class="card-text">
+                  <ul style={list}>
+                    <li>Sept. 12 - 16</li>
+                    <li>10:00am - 7:00pm w/Lunch</li>
+                    <li>
+                      {" "}
+                      <a href="https://www.consciousanatomy.com/offers/TDy4qw9t/checkout">
+                        Registration
+                      </a>{" "}
+                    </li>
+                  </ul>
+                </p>
+              </div>
+            </div>
           </div>
+
           <div className="col-md-12 p-3">
             <h3>Course Offerings</h3>
           </div>
@@ -98,7 +116,7 @@ function App() {
                     <li>10:00am - 7:00pm w/Lunch</li>
                     <li>
                       {" "}
-                      <a href="https://www.consciousanatomy.com/offers/6FTVxKYo/checkout">
+                      <a href="https://www.consciousanatomy.com/offers/2KdCwg3b/checkout">
                         Registration
                       </a>{" "}
                     </li>
@@ -107,6 +125,7 @@ function App() {
               </div>
             </div>
           </div>
+
           <div className="col-md-4 p-3">
             <div class="card">
               {/* <div class="card" style={card}> */}
@@ -212,6 +231,7 @@ function App() {
           </div>
         </div>
       </div>
+      <img className="p-1" src={newHarmonyHeader} alt="Logo" style={logoStyle} />
     </div>
   );
 }
