@@ -26,6 +26,9 @@ const parallaxWhiteLotus = {
 const list = {
   listStyleType: "none",
 };
+const card = {
+  width: "18rem",
+};
 
 function App() {
   return (
@@ -160,6 +163,36 @@ function App() {
             </ul>
           </div>
           <div className="col-md-4 p-5">
+            <div class="card" style={card}>
+              <div class="card-body">
+                <h5 class="card-title">Reactive Triads™</h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  {" "}
+                  Muscle lymph and Mixed Triads
+                </h6>
+                <p class="card-text">
+                  <ul style={list}>
+                    <li>Dates: Sept. 15 - 16</li>
+                    <li>Time: 10:00am - 7:00pm w/Lunch Break</li>
+                    <li>
+                      {" "}
+                      <a href="https://www.consciousanatomy.com/offers/Botsvpmr/checkout">
+                        Registration
+                      </a>{" "}
+                    </li>
+                  </ul>
+                </p>
+                {/* <a
+                  href="https://www.consciousanatomy.com/offers/Botsvpmr/checkout"
+                  class="card-link"
+                >
+                  Card link
+                </a> */}
+                {/* <a href="#" class="card-link">
+                  Another link
+                </a> */}
+              </div>
+            </div>
             <h3>Reactive Triads™: Muscle lymph and Mixed Triads</h3>
             <ul style={list}>
               <li>Dates: Sept. 15 - 16</li>
