@@ -40,8 +40,14 @@
 .jumbotron {
   margin-bottom: 0;
 }
-.section {
+.section1 {
   min-height: 600px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.section2 {
+  min-height: 400px;
   background-attachment: fixed;
   background-size: cover;
   background-position: 50% 50%;

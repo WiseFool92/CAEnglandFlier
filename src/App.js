@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import "./App.css";
 import redWaterLotus from "./img/redWaterLotus.webp";
+import whiteLotus3 from "./img/whiteLotus3.jpeg";
 // import Ann from './img/ann.jpg';
 // import annLogo from './img/annLogo.jpg';
 // import newHarmonyHeader from './img/newHarmonyHeader.jpg';
@@ -8,28 +9,39 @@ import redWaterLotus from "./img/redWaterLotus.webp";
 // const homeBackground = {
 //   backgroundColor: "#37659D",
 // };
-const parallaxHome = {
+const parallaxLanding = {
   backgroundImage: `url(${redWaterLotus})`,
   backgroundSize: "cover",
   backgroundPosition: "center",
   backgroundRepeat: "no-repeat",
   height: "100vh",
 };
+const parallaxWhiteLotus = {
+  backgroundImage: `url(${whiteLotus3})`,
+  backgroundSize: "cover",
+  backgroundPosition: "center",
+  backgroundRepeat: "no-repeat",
+  height: "25vh",
+};
+const list = {
+  listStyleType: "none",
+};
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Conscious Anatomy England</h1>
+        <h1>Conscious Anatomy™ England</h1>
         <p>Taught by: Ann Watkins</p>
         <p>↓↓ Scroll Down for Details ↓↓</p>
       </header>
-      <div className="jumbotron section" style={parallaxHome}></div>
+      <div className="jumbotron section1" style={parallaxLanding}></div>
 
-      <h1>Conscious Anatomy Flier</h1>
       <div className="container p-1">
+        <h1>Conscious Anatomy™ Flier</h1>
         <div className="row">
           <h1>Accommodations</h1>
+          <hr />
           <div className="col-md-6">
             <h2>Woodland yurt</h2>
             <a href="https://www.airbnb.co.uk/rooms/50341439">
@@ -75,6 +87,90 @@ function App() {
             <a href="https://www.airbnb.co.uk/rooms/50915835">
               https://www.airbnb.co.uk/rooms/50915835
             </a>
+          </div>
+        </div>
+      </div>
+      <div className="jumbotron section2" style={parallaxWhiteLotus}></div>
+      <div className="container p-1">
+        <div className="row">
+          <h1>Course Dates and Information</h1>
+          <hr />
+          <div className="col-md-12">
+            <h3>Cornwall England:</h3>
+            <ul style={list}>
+              <li>Dates: Sept. 6 - 9</li>
+              <li>Class: Conscious Anatomy™</li>
+              <li>Time: 10:00am - 3:30pm</li>
+              <li>
+                Registration:{" "}
+                <a href="https://www.consciousanatomy.com/conscious-anatomy-course-1-1-1">
+                  https://www.consciousanatomy.com/conscious-anatomy-course-1-1-1
+                </a>{" "}
+              </li>
+            </ul>
+          </div>
+          <hr />
+          <div className="col-md-12">
+            <h3>**Three Course Special**</h3>
+            <h3>
+              Reactive Triads™: Basics and Subtleties of Muscle Testing
+              <br />
+              <small>
+                Save $150.00 when you invest in all three courses: $647.00
+              </small>
+            </h3>
+            <ul style={list}>
+              <li>Dates: Sept. 12 - 16</li>
+              <li>Time: 10:00am - 7:00pm w/Lunch Break</li>
+              <li>
+                Registration:{" "}
+                <a href="https://www.consciousanatomy.com/offers/TDy4qw9t/checkout">
+                  https://www.consciousanatomy.com/offers/TDy4qw9t/checkout
+                </a>{" "}
+              </li>
+            </ul>
+          </div>
+          <div className="col-md-12 p-5">
+            <h3>Course Offerings</h3>
+          </div>
+          <div className="col-md-4">
+            <h3>Reactive Triads™: Basics and Subtleties of Muscle Testing</h3>
+            <ul style={list}>
+              <li>Dates: Sept. 12</li>
+              <li>Time: 10:00am - 7:00pm w/Lunch Break</li>
+              <li>
+                Registration:{" "}
+                {/* <a href="https://www.consciousanatomy.com/offers/TDy4qw9t/checkout">
+                  https://www.consciousanatomy.com/offers/TDy4qw9t/checkout
+                </a>{" "} */}
+              </li>
+            </ul>
+          </div>
+          <div className="col-md-4">
+            <h3>Save $150.00 when you invest in all three courses: $647.00</h3>
+            <ul style={list}>
+              <li>Dates: Sept. 12 - 16</li>
+              <li>Time: 10:00am - 7:00pm w/Lunch Break</li>
+              <li>
+                Registration:{" "}
+                <a href="https://www.consciousanatomy.com/offers/TDy4qw9t/checkout">
+                  https://www.consciousanatomy.com/offers/TDy4qw9t/checkout
+                </a>{" "}
+              </li>
+            </ul>
+          </div>
+          <div className="col-md-4">
+            <h3>Save $150.00 when you invest in all three courses: $647.00</h3>
+            <ul style={list}>
+              <li>Dates: Sept. 12 - 16</li>
+              <li>Time: 10:00am - 7:00pm w/Lunch Break</li>
+              <li>
+                Registration:{" "}
+                <a href="https://www.consciousanatomy.com/offers/TDy4qw9t/checkout">
+                  https://www.consciousanatomy.com/offers/TDy4qw9t/checkout
+                </a>{" "}
+              </li>
+            </ul>
           </div>
         </div>
       </div>
