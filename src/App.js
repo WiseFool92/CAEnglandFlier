@@ -5,6 +5,9 @@ import whiteLotus3 from "./img/whiteLotus3.jpeg";
 // import Ann from './img/ann.jpg';
 // import annLogo from './img/annLogo.jpg';
 import newHarmonyHeader from "./img/newHarmonyHeader.jpg";
+import Button from "react-bootstrap/Button";
+// import { Link } from "react-router-dom";
+import React from "react";
 
 // const homeBackground = {
 //   backgroundColor: "#37659D",
@@ -66,7 +69,7 @@ function App() {
                     <li>
                       {" "}
                       <a href="https://www.consciousanatomy.com/conscious-anatomy-course-1-1-1">
-                        Registration
+                        <Button>Registration</Button>
                       </a>{" "}
                     </li>
                   </ul>
@@ -96,7 +99,7 @@ function App() {
                     <li>
                       {" "}
                       <a href="https://www.consciousanatomy.com/offers/TDy4qw9t/checkout">
-                        Registration
+                        <Button>Registration</Button>
                       </a>{" "}
                     </li>
                   </ul>
@@ -124,7 +127,7 @@ function App() {
                     <li>
                       {" "}
                       <a href="https://www.consciousanatomy.com/offers/2KdCwg3b/checkout">
-                        Registration
+                        <Button>Registration</Button>
                       </a>{" "}
                     </li>
                   </ul>
@@ -149,7 +152,7 @@ function App() {
                     <li>
                       {" "}
                       <a href="https://www.consciousanatomy.com/offers/6FTVxKYo/checkout">
-                        Registration
+                        <Button>Registration</Button>
                       </a>{" "}
                     </li>
                   </ul>
@@ -173,7 +176,7 @@ function App() {
                     <li>
                       {" "}
                       <a href="https://www.consciousanatomy.com/offers/Botsvpmr/checkout">
-                        Registration
+                        <Button>Registration</Button>
                       </a>{" "}
                     </li>
                   </ul>
@@ -189,11 +192,22 @@ function App() {
       <div className="container p-1">
         <div className="row">
           <h1>Accommodations</h1>
+          <p>*Please Note*</p>
+          <p>The links below are for viewing purposes only.</p>
+          <p>
+            To Book Contact Jackie Caldwell:
+            <a className="p-1" href="mailto:jackie@trevellanmagic.space">
+              <Button>Email</Button>
+            </a>
+            <a href="tel:+44 (0)7816 639534">
+              <Button>Call</Button>
+            </a>
+          </p>
           <hr />
           <div className="col-md-6">
             <h2>Woodland yurt</h2>
             <a href="https://www.airbnb.co.uk/rooms/50341439">
-              https://www.airbnb.co.uk/rooms/50341439
+              <Button>View</Button>
             </a>
             <p>
               Yurt stay is dorm-style for $40.00 per night plus a one-time
@@ -205,7 +219,7 @@ function App() {
             <h2>Rose Chalet</h2>
 
             <a href="https://www.airbnb.co.uk/rooms/50051591">
-              https://www.airbnb.co.uk/rooms/50051591
+              <Button>View</Button>
             </a>
             <p>
               The chalet includes bedding, an indoor bathroom, and a kitchen and
@@ -226,14 +240,14 @@ function App() {
             <h2>Falmouth Flat</h2>
 
             <a href="https://www.airbnb.co.uk/rooms/13130762">
-              https://www.airbnb.co.uk/rooms/13130762
+              <Button>View</Button>
             </a>
           </div>
           <div className="col-md-6">
             <h2>Penryn Flat</h2>
 
             <a href="https://www.airbnb.co.uk/rooms/50915835">
-              https://www.airbnb.co.uk/rooms/50915835
+              <Button>View</Button>
             </a>
           </div>
         </div>
