@@ -12,6 +12,10 @@ import React from "react";
 // const homeBackground = {
 //   backgroundColor: "#37659D",
 // };
+const trevellan = {
+  color: "#F7D488",
+  // color: "#F7D488",
+};
 const parallaxLanding = {
   backgroundImage: `url(${redWaterLotus})`,
   backgroundSize: "cover",
@@ -51,6 +55,18 @@ function App() {
 
       <div className="container p-3">
         <div className="row">
+          <h1 style={trevellan}>Trevellan Magic Space</h1>
+          <p>
+            Close to the buzzing harbourside town of Falmouth, and the virgin
+            oak forests of the Helford Estuary, this magical space for rest,
+            renewal and inspiration in nature offers volunteering,
+            self-discovery, holidays, bespoke retreats and artist residencies.
+            With two beautiful traditional Mongolian Yurts, two wooden studio
+            spaces, meandering woodland paths and a hilltop fire circle. Come
+            and immerse yourself in a haven of peace filled with stars (no light
+            pollution!) deep silence (filled with birdsong), self-wilded Oak,
+            Ash, Hawthorn, Blackthorn, Rose and Sycamore woodland.
+          </p>
           <h1>Course Dates and Information</h1>
           <hr />
           <div className="col-md-12 p-3">
