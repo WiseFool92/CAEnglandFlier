@@ -12,8 +12,8 @@ import React from "react";
 // const homeBackground = {
 //   backgroundColor: "#37659D",
 // };
-const trevellan = {
-  color: "#F7D488",
+const titles = {
+  color: "#3B0D11",
   // color: "#F7D488",
 };
 const parallaxLanding = {
@@ -55,7 +55,8 @@ function App() {
 
       <div className="container p-3">
         <div className="row">
-          <h1 style={trevellan}>Trevellan Magic Space</h1>
+          <h1 style={titles}><strong>Trevellan Magic Space</strong></h1>
+          <hr />
           <p>
             Close to the buzzing harbourside town of Falmouth, and the virgin
             oak forests of the Helford Estuary, this magical space for rest,
@@ -67,7 +68,7 @@ function App() {
             pollution!) deep silence (filled with birdsong), self-wilded Oak,
             Ash, Hawthorn, Blackthorn, Rose and Sycamore woodland.
           </p>
-          <h1>Course Dates and Information</h1>
+          <h1 style={titles}>Course Dates & Information</h1>
           <hr />
           <div className="col-md-12 p-3">
             <div class="card">
@@ -125,7 +126,7 @@ function App() {
           </div>
 
           <div className="col-md-12 p-3">
-            <h3>Course Offerings</h3>
+            <h3 style={titles}>Course Offerings</h3>
           </div>
           <div className="col-md-4 p-3">
             <div class="card">
@@ -207,7 +208,7 @@ function App() {
 
       <div className="container p-1">
         <div className="row">
-          <h1>Accommodations</h1>
+          <h1 style={titles}>Accommodations</h1>
           <p>*Please Note*</p>
           <p>The links below are for viewing purposes only.</p>
           <p>
@@ -221,7 +222,7 @@ function App() {
           </p>
           <hr />
           <div className="col-md-6">
-            <h2>Woodland yurt</h2>
+            <h2 style={titles}>Woodland Yurt</h2>
             <a href="https://www.airbnb.co.uk/rooms/50341439">
               <Button>View</Button>
             </a>
@@ -232,7 +233,7 @@ function App() {
             </p>
           </div>
           <div className="col-md-6">
-            <h2>Rose Chalet</h2>
+            <h2 style={titles}>Rose Chalet</h2>
 
             <a href="https://www.airbnb.co.uk/rooms/50051591">
               <Button>View</Button>
@@ -245,7 +246,7 @@ function App() {
           </div>
         </div>
         <div className="row">
-          <h2>Flats</h2>
+          <h2 style={titles}>Flats</h2>
           <p>
             2 Flats include bedding, indoor bathroom, and kitchen; you will need
             a car or taxi and bus because they are located about 15min. away
@@ -253,14 +254,14 @@ function App() {
             one-time weekly charge of $60.00 for cleaning
           </p>
           <div className="col-md-6">
-            <h2>Falmouth Flat</h2>
+            <h2 style={titles}>Falmouth Flat</h2>
 
             <a href="https://www.airbnb.co.uk/rooms/13130762">
               <Button>View</Button>
             </a>
           </div>
           <div className="col-md-6">
-            <h2>Penryn Flat</h2>
+            <h2 style={titles}>Penryn Flat</h2>
 
             <a href="https://www.airbnb.co.uk/rooms/50915835">
               <Button>View</Button>
