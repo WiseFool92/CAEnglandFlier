@@ -8,6 +8,8 @@ import newHarmonyHeader from "./img/newHarmonyHeader.jpg";
 import Button from "react-bootstrap/Button";
 // import { Link } from "react-router-dom";
 import React from "react";
+import greenWoodlandYurt from "./img/greenWoodlandYurt.jpg";
+import roseChalet from "./img/roseChalet.jpg";
 
 // const homeBackground = {
 //   backgroundColor: "#37659D",
@@ -41,6 +43,9 @@ const logoStyle = {
   height: "100%",
   cursor: "pointer",
 };
+const images = {
+  borderRadius: "2rem"
+};
 function App() {
   return (
     <div className="App">
@@ -55,7 +60,9 @@ function App() {
 
       <div className="container p-3">
         <div className="row">
-          <h1 style={titles}><strong>Trevellan Magic Space</strong></h1>
+          <h1 style={titles}>
+            <strong>Trevellan Magic Space</strong>
+          </h1>
           <hr />
           <p>
             Close to the buzzing harbourside town of Falmouth, and the virgin
@@ -226,6 +233,8 @@ function App() {
             <a href="https://www.airbnb.co.uk/rooms/50341439">
               <Button>View</Button>
             </a>
+            <br />
+            <img alt="Green Woodland Yurt" src={greenWoodlandYurt}  className="p-1" style={images}></img>
             <p>
               Yurt stay is dorm-style for $40.00 per night plus a one-time
               weekly charge of $35.00 for bedding and cleaning with a shared
@@ -234,10 +243,11 @@ function App() {
           </div>
           <div className="col-md-6">
             <h2 style={titles}>Rose Chalet</h2>
-
             <a href="https://www.airbnb.co.uk/rooms/50051591">
               <Button>View</Button>
             </a>
+            <br />
+            <img alt="Green Woodland Yurt" src={roseChalet}  className="p-1" style={images}></img>
             <p>
               The chalet includes bedding, an indoor bathroom, and a kitchen and
               is located on campus for a charge of $90.00 per room per night
