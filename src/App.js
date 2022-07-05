@@ -10,6 +10,7 @@ import Button from "react-bootstrap/Button";
 import React from "react";
 import greenWoodlandYurt from "./img/greenWoodlandYurt.jpg";
 import roseChalet from "./img/roseChalet.jpg";
+import footerImg from "./img/footerImg.jpg";
 
 // const homeBackground = {
 //   backgroundColor: "#37659D",
@@ -42,15 +43,21 @@ const logoStyle = {
   maxHeight: "8.2vh",
   height: "100%",
   cursor: "pointer",
+  borderRadius: ".5rem",
 };
 const images = {
-  borderRadius: "2rem"
+  borderRadius: "2rem",
+};
+const footerStyle = {
+  width: "50%",
+  maxHeight: "25vh",
+  borderRadius: ".5rem",
 };
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Come Study in Cornwall, England</h1>
+        <h1>Come Study in Cornwall, England at Trevellan Magic Space</h1>
         <h2>Conscious Anatomy™ & Reactive Triads Courses™</h2>
         <p>Taught by: Ann Watkins</p>
         <p>↓↓ Scroll Down for Details ↓↓</p>
@@ -234,7 +241,12 @@ function App() {
               <Button>View</Button>
             </a>
             <br />
-            <img alt="Green Woodland Yurt" src={greenWoodlandYurt}  className="p-1" style={images}></img>
+            <img
+              alt="Green Woodland Yurt"
+              src={greenWoodlandYurt}
+              className="p-1"
+              style={images}
+            ></img>
             <p>
               Yurt stay is dorm-style for $40.00 per night plus a one-time
               weekly charge of $35.00 for bedding and cleaning with a shared
@@ -247,7 +259,12 @@ function App() {
               <Button>View</Button>
             </a>
             <br />
-            <img alt="Green Woodland Yurt" src={roseChalet}  className="p-1" style={images}></img>
+            <img
+              alt="Green Woodland Yurt"
+              src={roseChalet}
+              className="p-1"
+              style={images}
+            ></img>
             <p>
               The chalet includes bedding, an indoor bathroom, and a kitchen and
               is located on campus for a charge of $90.00 per room per night
@@ -282,9 +299,11 @@ function App() {
       <img
         className="p-1"
         src={newHarmonyHeader}
-        alt="Logo"
+        alt="New Harmony Logo"
         style={logoStyle}
       />
+      <br />
+      <img src={footerImg} style={footerStyle} alt="Trevellan Magic Site"></img>
     </div>
   );
 }
