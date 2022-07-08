@@ -37,6 +37,9 @@ const parallaxWhiteLotus = {
 const list = {
   listStyleType: "none",
 };
+const pounds = {
+  padding: ".25rem",
+};
 const courseSavings = {
   color: "green",
 };
@@ -105,7 +108,13 @@ function App() {
                     <li>
                       {" "}
                       <a href="https://www.consciousanatomy.com/conscious-anatomy-course-1-1-1">
-                        <Button>USD Registration</Button>
+                        <Button>$ USD Registration</Button>
+                      </a>{" "}
+                    </li>
+                    <li style={pounds}>
+                      {" "}
+                      <a  href="">
+                        <Button>£ Pounds Registration</Button>
                       </a>{" "}
                     </li>
                   </ul>
@@ -135,7 +144,13 @@ function App() {
                     <li>
                       {" "}
                       <a href="https://www.consciousanatomy.com/offers/TDy4qw9t/checkout">
-                        <Button>USD Registration</Button>
+                        <Button>$ USD Registration</Button>
+                      </a>{" "}
+                    </li>
+                    <li style={pounds}>
+                      {" "}
+                      <a href="https://www.consciousanatomy.com/offers/wTG6RAgo">
+                        <Button>£ Pounds Registration</Button>
                       </a>{" "}
                     </li>
                   </ul>
@@ -163,7 +178,13 @@ function App() {
                     <li>
                       {" "}
                       <a href="https://www.consciousanatomy.com/offers/2KdCwg3b/checkout">
-                        <Button>USD Registration</Button>
+                        <Button>$ USD Registration</Button>
+                      </a>{" "}
+                    </li>
+                    <li style={pounds}>
+                      {" "}
+                      <a  href="">
+                        <Button>£ Pounds Registration</Button>
                       </a>{" "}
                     </li>
                   </ul>
@@ -188,7 +209,13 @@ function App() {
                     <li>
                       {" "}
                       <a href="https://www.consciousanatomy.com/offers/6FTVxKYo/checkout">
-                        <Button>USD Registration</Button>
+                        <Button>$ USD Registration</Button>
+                      </a>{" "}
+                    </li>
+                    <li style={pounds}>
+                      {" "}
+                      <a  href="">
+                        <Button>£ Pounds Registration</Button>
                       </a>{" "}
                     </li>
                   </ul>
@@ -212,7 +239,13 @@ function App() {
                     <li>
                       {" "}
                       <a href="https://www.consciousanatomy.com/offers/Botsvpmr/checkout">
-                        <Button>USD Registration</Button>
+                        <Button>$ USD Registration</Button>
+                      </a>{" "}
+                    </li>
+                    <li style={pounds}>
+                      {" "}
+                      <a  href="">
+                        <Button>£ Pounds Registration</Button>
                       </a>{" "}
                     </li>
                   </ul>
