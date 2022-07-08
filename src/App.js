@@ -10,6 +10,7 @@ import Button from "react-bootstrap/Button";
 import React from "react";
 import greenWoodlandYurt from "./img/greenWoodlandYurt.jpg";
 import roseChalet from "./img/roseChalet.jpg";
+import trevellanMagicSpaceLogo from "./img/trevellanMagicSpaceLogo.png";
 import footerImg from "./img/footerImg.jpg";
 
 // const homeBackground = {
@@ -48,6 +49,10 @@ const logoStyle = {
 const images = {
   borderRadius: "2rem",
 };
+const trevellanLogo = {
+  width: "10vw",
+
+}
 const footerStyle = {
   width: "50%",
   maxHeight: "25vh",
@@ -100,7 +105,7 @@ function App() {
                     <li>
                       {" "}
                       <a href="https://www.consciousanatomy.com/conscious-anatomy-course-1-1-1">
-                        <Button>Registration</Button>
+                        <Button>USD Registration</Button>
                       </a>{" "}
                     </li>
                   </ul>
@@ -114,7 +119,7 @@ function App() {
               <h1 style={courseSavings}>**Three Course Special**</h1>
               <p style={courseSavings}>
                 <strong>
-                  Save $150.00 when you invest in all three courses: $647.00
+                  Save $150.00 USD or £124.78 when you invest in all three courses: $647.00 USD or £538.00 Pounds
                 </strong>
               </p>
               <div class="card-body">
@@ -130,7 +135,7 @@ function App() {
                     <li>
                       {" "}
                       <a href="https://www.consciousanatomy.com/offers/TDy4qw9t/checkout">
-                        <Button>Registration</Button>
+                        <Button>USD Registration</Button>
                       </a>{" "}
                     </li>
                   </ul>
@@ -158,7 +163,7 @@ function App() {
                     <li>
                       {" "}
                       <a href="https://www.consciousanatomy.com/offers/2KdCwg3b/checkout">
-                        <Button>Registration</Button>
+                        <Button>USD Registration</Button>
                       </a>{" "}
                     </li>
                   </ul>
@@ -183,7 +188,7 @@ function App() {
                     <li>
                       {" "}
                       <a href="https://www.consciousanatomy.com/offers/6FTVxKYo/checkout">
-                        <Button>Registration</Button>
+                        <Button>USD Registration</Button>
                       </a>{" "}
                     </li>
                   </ul>
@@ -207,7 +212,7 @@ function App() {
                     <li>
                       {" "}
                       <a href="https://www.consciousanatomy.com/offers/Botsvpmr/checkout">
-                        <Button>Registration</Button>
+                        <Button>USD Registration</Button>
                       </a>{" "}
                     </li>
                   </ul>
@@ -226,13 +231,20 @@ function App() {
           <p>*Please Note*</p>
           <p>The links below are for viewing purposes only.</p>
           <p>
-            To Book Contact Jackie Caldwell:
+            To Book Contact Jackie Calderwood:
             <a className="p-1" href="mailto:jackie@trevellanmagic.space">
               <Button>Email</Button>
             </a>
             <a href="tel:+44 (0)7816 639534">
               <Button>Call</Button>
             </a>
+            <br />
+          <img
+              alt="Trevellan Magic Space"
+              src={trevellanMagicSpaceLogo}
+              className="p-1"
+              style={trevellanLogo}
+            ></img>
           </p>
           <hr />
           <div className="col-md-6">
@@ -248,8 +260,8 @@ function App() {
               style={images}
             ></img>
             <p>
-              Yurt stay is dorm-style for $40.00 per night plus a one-time
-              weekly charge of $35.00 for bedding and cleaning with a shared
+              Yurt stay is dorm-style for $40.00 USD or £33.27 Pounds per night plus a one-time
+              weekly charge of $35.00 USD or £29.11 Pounds for bedding and cleaning with a shared
               outdoor bathroom, shower, sink, fire pit
             </p>
           </div>
@@ -267,8 +279,8 @@ function App() {
             ></img>
             <p>
               The chalet includes bedding, an indoor bathroom, and a kitchen and
-              is located on campus for a charge of $90.00 per room per night
-              with a one-time weekly charge of $60.00 for cleaning
+              is located on campus for a charge of $90.00 USD or £74.87 Pounds per room per night
+              with a one-time weekly charge of $60.00 USD or £49.91 Pounds for cleaning
             </p>
           </div>
         </div>
@@ -277,8 +289,8 @@ function App() {
           <p>
             2 Flats include bedding, indoor bathroom, and kitchen; you will need
             a car or taxi and bus because they are located about 15min. away
-            from campus; the cost per bedroom per night is $90.00 plus a
-            one-time weekly charge of $60.00 for cleaning
+            from campus; the cost per bedroom per night is $90.00 USD or £74.87 Pounds plus a
+            one-time weekly charge of $60.00 USD or £49.91 Pounds for cleaning
           </p>
           <div className="col-md-6">
             <h2 style={titles}>Falmouth Flat</h2>
