@@ -11,6 +11,7 @@ import React from "react";
 import greenWoodlandYurt from "./img/greenWoodlandYurt.jpg";
 import roseChalet from "./img/roseChalet.jpg";
 import trevellanMagicSpaceLogo from "./img/trevellanMagicSpaceLogo.png";
+import consciousLogo from "./img/consciousLogo.jpg";
 import footerImg from "./img/footerImg.jpg";
 
 // const homeBackground = {
@@ -49,13 +50,20 @@ const logoStyle = {
   cursor: "pointer",
   borderRadius: ".5rem",
 };
+const logoCourseStyle = {
+  maxHeight: "8.2vh",
+  height: "100%",
+  cursor: "pointer",
+  borderRadius: ".5rem",
+  width: "50%",
+  margin: "auto",
+};
 const images = {
   borderRadius: "2rem",
 };
 const trevellanLogo = {
   width: "10vw",
-
-}
+};
 const footerStyle = {
   width: "50%",
   maxHeight: "25vh",
@@ -68,6 +76,14 @@ function App() {
         <h1>Come Study in Cornwall, England at Trevellan Magic Space</h1>
         <h2>Conscious Anatomy™ & Reactive Triads Courses™</h2>
         <p>Taught by: Ann Watkins</p>
+        <a href="http://www.newharmonymassage.com/index.htm">
+          <img
+            className="p-1"
+            src={newHarmonyHeader}
+            alt="New Harmony Logo"
+            style={logoStyle}
+          />
+        </a>
         <p>↓↓ Scroll Down for Details ↓↓</p>
       </header>
 
@@ -92,6 +108,14 @@ function App() {
           </p>
           <h1 style={titles}>Course Dates & Information</h1>
           <hr />
+          <a href="http://www.newharmonymassage.com/index.htm">
+            <img
+              className="p-1"
+              src={newHarmonyHeader}
+              alt="New Harmony Logo"
+              style={logoCourseStyle}
+            />
+          </a>
           <div className="col-md-12 p-3">
             <div class="card">
               {/* <div class="card" style={card}> */}
@@ -101,6 +125,14 @@ function App() {
                   {" "}
                   Bones Planes and Directions
                 </h6>
+                <a href="https://www.consciousanatomy.com/">
+                  <img
+                    className="p-1"
+                    src={consciousLogo}
+                    alt="New Harmony Logo"
+                    style={logoStyle}
+                  />
+                </a>
                 <p class="card-text">
                   <ul style={list}>
                     <li>Sept. 6 - 9</li>
@@ -113,7 +145,7 @@ function App() {
                     </li>
                     <li style={pounds}>
                       {" "}
-                      <a  href="https://www.consciousanatomy.com/offers/DjdgZEJF ">
+                      <a href="https://www.consciousanatomy.com/offers/DjdgZEJF ">
                         <Button>£ Pounds Registration</Button>
                       </a>{" "}
                     </li>
@@ -128,7 +160,8 @@ function App() {
               <h1 style={courseSavings}>**Three Course Special**</h1>
               <p style={courseSavings}>
                 <strong>
-                  Save $150.00 USD or £124.78 when you invest in all three courses: $647.00 USD or £538.00 Pounds
+                  Save $150.00 USD or £124.78 when you invest in all three
+                  courses: $647.00 USD or £538.00 Pounds
                 </strong>
               </p>
               <div class="card-body">
@@ -161,6 +194,14 @@ function App() {
 
           <div className="col-md-12 p-3">
             <h3 style={titles}>Course Offerings</h3>
+            <a href="http://www.newharmonymassage.com/index.htm">
+              <img
+                className="p-1"
+                src={newHarmonyHeader}
+                alt="New Harmony Logo"
+                style={logoCourseStyle}
+              />
+            </a>
           </div>
           <div className="col-md-4 p-3">
             <div class="card">
@@ -183,7 +224,7 @@ function App() {
                     </li>
                     <li style={pounds}>
                       {" "}
-                      <a  href="https://www.consciousanatomy.com/offers/L5hMZRGv">
+                      <a href="https://www.consciousanatomy.com/offers/L5hMZRGv">
                         <Button>£ Pounds Registration</Button>
                       </a>{" "}
                     </li>
@@ -214,7 +255,7 @@ function App() {
                     </li>
                     <li style={pounds}>
                       {" "}
-                      <a  href="https://www.consciousanatomy.com/offers/mCqrb9pg">
+                      <a href="https://www.consciousanatomy.com/offers/mCqrb9pg">
                         <Button>£ Pounds Registration</Button>
                       </a>{" "}
                     </li>
@@ -244,7 +285,7 @@ function App() {
                     </li>
                     <li style={pounds}>
                       {" "}
-                      <a  href="https://www.consciousanatomy.com/offers/XxSVziYL">
+                      <a href="https://www.consciousanatomy.com/offers/XxSVziYL">
                         <Button>£ Pounds Registration</Button>
                       </a>{" "}
                     </li>
@@ -261,6 +302,7 @@ function App() {
       <div className="container p-1">
         <div className="row">
           <h1 style={titles}>Accommodations</h1>
+          <hr />
           <p>*Please Note*</p>
           <p>The links below are for viewing purposes only.</p>
           <p>
@@ -272,14 +314,14 @@ function App() {
               <Button>Call</Button>
             </a>
             <br />
-          <img
+            <img
               alt="Trevellan Magic Space"
               src={trevellanMagicSpaceLogo}
               className="p-1"
               style={trevellanLogo}
             ></img>
           </p>
-          <hr />
+
           <div className="col-md-6">
             <h2 style={titles}>Woodland Yurt</h2>
             <a href="https://www.airbnb.co.uk/rooms/50341439">
@@ -293,9 +335,10 @@ function App() {
               style={images}
             ></img>
             <p>
-              Yurt stay is dorm-style for $40.00 USD or £33.27 Pounds per night plus a one-time
-              weekly charge of $35.00 USD or £29.11 Pounds for bedding and cleaning with a shared
-              outdoor bathroom, shower, sink, fire pit
+              Yurt stay is dorm-style for $40.00 USD or £33.27 Pounds per night
+              plus a one-time weekly charge of $35.00 USD or £29.11 Pounds for
+              bedding and cleaning with a shared outdoor bathroom, shower, sink,
+              fire pit
             </p>
           </div>
           <div className="col-md-6">
@@ -312,8 +355,9 @@ function App() {
             ></img>
             <p>
               The chalet includes bedding, an indoor bathroom, and a kitchen and
-              is located on campus for a charge of $90.00 USD or £74.87 Pounds per room per night
-              with a one-time weekly charge of $60.00 USD or £49.91 Pounds for cleaning
+              is located on campus for a charge of $90.00 USD or £74.87 Pounds
+              per room per night with a one-time weekly charge of $60.00 USD or
+              £49.91 Pounds for cleaning
             </p>
           </div>
         </div>
@@ -322,8 +366,9 @@ function App() {
           <p>
             2 Flats include bedding, indoor bathroom, and kitchen; you will need
             a car or taxi and bus because they are located about 15min. away
-            from campus; the cost per bedroom per night is $90.00 USD or £74.87 Pounds plus a
-            one-time weekly charge of $60.00 USD or £49.91 Pounds for cleaning
+            from campus; the cost per bedroom per night is $90.00 USD or £74.87
+            Pounds plus a one-time weekly charge of $60.00 USD or £49.91 Pounds
+            for cleaning
           </p>
           <div className="col-md-6">
             <h2 style={titles}>Falmouth Flat</h2>
@@ -341,13 +386,7 @@ function App() {
           </div>
         </div>
       </div>
-      <img
-        className="p-1"
-        src={newHarmonyHeader}
-        alt="New Harmony Logo"
-        style={logoStyle}
-      />
-      <br />
+
       <img src={footerImg} style={footerStyle} alt="Trevellan Magic Site"></img>
     </div>
   );
