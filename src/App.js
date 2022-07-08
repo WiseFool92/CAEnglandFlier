@@ -314,12 +314,14 @@ function App() {
               <Button>Call</Button>
             </a>
             <br />
-            <img
-              alt="Trevellan Magic Space"
-              src={trevellanMagicSpaceLogo}
-              className="p-1"
-              style={trevellanLogo}
-            ></img>
+            <a href="https://trevellanmagic.space/">
+              <img
+                alt="Trevellan Magic Space"
+                src={trevellanMagicSpaceLogo}
+                className="p-1"
+                style={trevellanLogo}
+              ></img>
+            </a>
           </p>
 
           <div className="col-md-6">
