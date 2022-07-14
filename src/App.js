@@ -183,7 +183,7 @@ function App() {
                     <li style={pounds}>
                       {" "}
                       <a href="https://www.consciousanatomy.com/offers/wTG6RAgo">
-                        <Button>£ Pounds Registration</Button>
+                        <Button>£ GBP Registration</Button>
                       </a>{" "}
                     </li>
                   </ul>
@@ -225,7 +225,7 @@ function App() {
                     <li style={pounds}>
                       {" "}
                       <a href="https://www.consciousanatomy.com/offers/L5hMZRGv">
-                        <Button>£ Pounds Registration</Button>
+                        <Button>£ GBP Registration</Button>
                       </a>{" "}
                     </li>
                   </ul>
@@ -256,7 +256,7 @@ function App() {
                     <li style={pounds}>
                       {" "}
                       <a href="https://www.consciousanatomy.com/offers/mCqrb9pg">
-                        <Button>£ Pounds Registration</Button>
+                        <Button>£ GBP Registration</Button>
                       </a>{" "}
                     </li>
                   </ul>
@@ -286,7 +286,7 @@ function App() {
                     <li style={pounds}>
                       {" "}
                       <a href="https://www.consciousanatomy.com/offers/XxSVziYL">
-                        <Button>£ Pounds Registration</Button>
+                        <Button>£ GBP Registration</Button>
                       </a>{" "}
                     </li>
                   </ul>
