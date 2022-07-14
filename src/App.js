@@ -136,19 +136,19 @@ function App() {
                 <p class="card-text">
                   <ul style={list}>
                     <li>Sept. 6 - 9</li>
-                    <li>10:00am - 3:30pm w/Lunch</li>
+                    <li>10:00am - 3:30pm w/Lunch Break (No Food Included)</li>
                     <li>
                       {" "}
                       <a href="https://www.consciousanatomy.com/conscious-anatomy-course-1-1-1">
                         <Button>$ USD Registration</Button>
                       </a>{" "}
                     </li>
-                    <li style={pounds}>
+                    {/* <li style={pounds}>
                       {" "}
                       <a href="https://www.consciousanatomy.com/offers/DjdgZEJF ">
-                        <Button>£ Pounds Registration</Button>
+                        <Button>£ GBP Registration</Button>
                       </a>{" "}
-                    </li>
+                    </li> */}
                   </ul>
                 </p>
               </div>
