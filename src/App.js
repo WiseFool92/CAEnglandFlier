@@ -10,6 +10,8 @@ import Button from "react-bootstrap/Button";
 import React from "react";
 import greenWoodlandYurt from "./img/greenWoodlandYurt.jpg";
 import roseChalet from "./img/roseChalet.jpg";
+import falmouthFlat from "./img/falmouthFlat.jpg";
+import VWT4Camper from "./img/VWT4Camper.jpg";
 import trevellanMagicSpaceLogo from "./img/trevellanMagicSpaceLogo.png";
 import consciousLogo from "./img/consciousLogo.jpg";
 import footerImg from "./img/footerImg.jpg";
@@ -60,6 +62,11 @@ const logoCourseStyle = {
 };
 const images = {
   borderRadius: "2rem",
+};
+const imagesFlat = {
+  borderRadius: "2rem",
+  width: "475.97px",
+  height: "270.96px",
 };
 const trevellanLogo = {
   width: "10vw",
@@ -400,27 +407,56 @@ function App() {
           </div>
         </div>
         <div className="row">
-          <h2 style={titles}>Flat</h2>
-          <p>
-            2 Flats include bedding, indoor bathroom, and kitchen; you will need
-            a car or taxi and bus because they are located about 15min. away
-            from campus; the cost per bedroom per night is $90.00 USD or £75 GBP
-            plus a one-time weekly charge of $60.00 USD or £50 GBP for cleaning
-          </p>
           <div className="col-md-6">
             <h2 style={titles}>Falmouth Flat</h2>
 
-            <a href="https://www.airbnb.co.uk/rooms/13130762">
+            {/* <a href="https://www.airbnb.co.uk/rooms/13130762">
               <Button>View</Button>
             </a>
+            <br /> */}
+            <img
+              alt="Falmouth Flat"
+              src={falmouthFlat}
+              className="p-1"
+              style={imagesFlat}
+            ></img>
+            <p>
+            The 2-bedroom Flat in Central Falmouth, on the Artisan Old High
+            Street, includes bedding, an indoor bathroom, kitchen/living/diner,
+            and an outdoor patio. You will need a car, taxi, or bus to travel
+            about 15mins away from campus; the cost per double or twin bedroom
+            per night is $70.00 USD or £60 GBP plus a one-time weekly charge of
+            $60.00 USD or £50 GBP for cleaning
+          </p>
           </div>
-          <div className="col-md-6">
-            <h2 style={titles}>Penryn Flat</h2>
 
-            <a href="https://www.airbnb.co.uk/rooms/50915835">
+          <div className="col-md-6">
+            <h2 style={titles}>VW T4 Camper Van</h2>
+
+            {/* <a href="https://www.airbnb.co.uk/rooms/50915835">
               <Button>View</Button>
             </a>
+            <br /> */}
+            <img
+              alt="VW T4 Camper Van"
+              src={VWT4Camper}
+              className="p-1"
+              style={images}
+            ></img>
+            <p>
+            VW T4 Camper Van stays $50.00, including DIY continental breakfast, (small double sofa bed) with bathroom awning and van kitchen with a low ceiling
+            </p>
           </div>
+
+         
+        </div>
+        <div className="row">
+          <h2 style={titles}>Camping</h2>
+          <br />
+          <p>
+            Camping is $25.00 per night with an outdoor shared bathroom, shower,
+            sink, and fire pit, including a DIY continental breakfast
+          </p>
         </div>
       </div>
 
