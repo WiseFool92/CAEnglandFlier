@@ -173,7 +173,7 @@ function App() {
                 <p class="card-text">
                   <ul style={list}>
                     <li>Sept. 12 - 16</li>
-                    <li>10:00am - 7:00pm w/Lunch</li>
+                    <li>10:00am - 7:00pm w/Lunch Break (No Food Included)</li>
                     <li>
                       {" "}
                       <a href="https://www.consciousanatomy.com/offers/TDy4qw9t/checkout">
@@ -215,7 +215,7 @@ function App() {
                 <p class="card-text">
                   <ul style={list}>
                     <li>Sept. 12</li>
-                    <li>10:00am - 7:00pm w/Lunch</li>
+                    <li>10:00am - 7:00pm w/Lunch Break (No Food Included)</li>
                     <li>
                       {" "}
                       <a href="https://www.consciousanatomy.com/offers/2KdCwg3b/checkout">
@@ -246,7 +246,7 @@ function App() {
                 <p class="card-text">
                   <ul style={list}>
                     <li>Sept. 13 - 14</li>
-                    <li>10:00am - 7:00pm w/Lunch</li>
+                    <li>10:00am - 7:00pm w/Lunch Break (No Food Included)</li>
                     <li>
                       {" "}
                       <a href="https://www.consciousanatomy.com/offers/6FTVxKYo/checkout">
@@ -276,7 +276,7 @@ function App() {
                 <p class="card-text">
                   <ul style={list}>
                     <li>Sept. 15 - 16</li>
-                    <li>10:00am - 7:00pm w/Lunch</li>
+                    <li>10:00am - 7:00pm w/Lunch Break (No Food Included)</li>
                     <li>
                       {" "}
                       <a href="https://www.consciousanatomy.com/offers/Botsvpmr/checkout">
