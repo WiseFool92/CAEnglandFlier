@@ -116,6 +116,10 @@ function App() {
               style={logoCourseStyle}
             />
           </a>
+          <p>
+            On teaching days there will be an opt-in lunch and dinner
+            arrangement for approx £25/day (sourced from local shops/cafes)
+          </p>
           <div className="col-md-12 p-3">
             <div class="card">
               {/* <div class="card" style={card}> */}
@@ -308,10 +312,10 @@ function App() {
           <p>
             To Book Contact Jackie Calderwood:
             <a className="p-1" href="mailto:jackie@trevellanmagic.space">
-              <Button>Email</Button>
+              <Button>jackie@trevellanmagic.space</Button>
             </a>
             <a href="tel:+44 (0)7816 639534">
-              <Button>Call</Button>
+              <Button>+44 (0)7816 639534</Button>
             </a>
             <br />
             <a href="https://trevellanmagic.space/">
@@ -323,6 +327,36 @@ function App() {
               ></img>
             </a>
           </p>
+
+          <div>
+            <h2 style={titles}>
+              Additional offerings at Trevellan Magic Space, for an extended
+              stay:
+            </h2>
+            <ol>
+              <li>
+                ‘Self-Discovery through your Naked Voice’ workshop Sunday 4th
+              </li>
+              <li>
+                ‘Clean Touch’ workshop Saturday 10th and Sunday 11th with Jeni
+                Edge and Jackie Calderwood
+              </li>
+              <li>
+                ‘Music and Landscape’ Workshop and intimate acoustic concert
+                with Facing The Ocean Saturday 17th - Sunday 18th TBC
+              </li>
+              <li>
+                Autumn Equinox Event - Friday 23rd - Sunday 25th ‘The Flowering
+                Diamond’ Shintaido and The Naked Voice TBC
+              </li>
+              <li>
+                Mid-week 19th - 23rd Sept, daily options (at cost) for yoga,
+                meditation, 1:1 sessions, guided walks, local exploration &
+                foraged fine foodstuff, plus complimentary use of practice room
+                for course students.
+              </li>
+            </ol>
+          </div>
 
           <div className="col-md-6">
             <h2 style={titles}>Woodland Yurt</h2>
@@ -337,10 +371,11 @@ function App() {
               style={images}
             ></img>
             <p>
-              Yurt stay is dorm-style for $40.00 USD or £34 Pounds per night
-              plus a one-time weekly charge of $35.00 USD or £30 Pounds for
-              bedding and cleaning with a shared outdoor bathroom, shower, sink,
-              fire pit
+              Yurt stay is 3-bed dorm-style for $40.00 USD or £34 Pounds per
+              night, including a Do It Yourself (DIY) continental breakfast with
+              a one-time weekly charge of $35.00 USD or £30 Pounds for bedding
+              and cleaning with a shared outdoor bathroom, shower, sink, fire
+              pit
             </p>
           </div>
           <div className="col-md-6">
@@ -350,27 +385,27 @@ function App() {
             </a>
             <br />
             <img
-              alt="Green Woodland Yurt"
+              alt="Rose Chalet"
               src={roseChalet}
               className="p-1"
               style={images}
             ></img>
             <p>
-              The chalet includes bedding, an indoor bathroom, and a kitchen and
-              is located on campus for a charge of $90.00 USD or £75 GBP
-              per room per night with a one-time weekly charge of $60.00 USD or
-              £50 GBP for cleaning
+              The 2-bedroom chalet includes bedding, an indoor bathroom, and a
+              kitchen/lounge/diner and is located on campus for a charge of
+              $90.00 USD or £75 GBP per double/twin room per night, including a
+              Do It Yourself (DIY) continental breakfast with a one-time weekly
+              charge of $60.00 USD or £50 GBP for cleaning
             </p>
           </div>
         </div>
         <div className="row">
-          <h2 style={titles}>Flats</h2>
+          <h2 style={titles}>Flat</h2>
           <p>
             2 Flats include bedding, indoor bathroom, and kitchen; you will need
             a car or taxi and bus because they are located about 15min. away
-            from campus; the cost per bedroom per night is $90.00 USD or £75
-            GBP plus a one-time weekly charge of $60.00 USD or £50 GBP
-            for cleaning
+            from campus; the cost per bedroom per night is $90.00 USD or £75 GBP
+            plus a one-time weekly charge of $60.00 USD or £50 GBP for cleaning
           </p>
           <div className="col-md-6">
             <h2 style={titles}>Falmouth Flat</h2>
