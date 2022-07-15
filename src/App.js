@@ -337,8 +337,8 @@ function App() {
               style={images}
             ></img>
             <p>
-              Yurt stay is dorm-style for $40.00 USD or £33.27 Pounds per night
-              plus a one-time weekly charge of $35.00 USD or £29.11 Pounds for
+              Yurt stay is dorm-style for $40.00 USD or £34 Pounds per night
+              plus a one-time weekly charge of $35.00 USD or £30 Pounds for
               bedding and cleaning with a shared outdoor bathroom, shower, sink,
               fire pit
             </p>
@@ -357,9 +357,9 @@ function App() {
             ></img>
             <p>
               The chalet includes bedding, an indoor bathroom, and a kitchen and
-              is located on campus for a charge of $90.00 USD or £74.87 Pounds
+              is located on campus for a charge of $90.00 USD or £75 GBP
               per room per night with a one-time weekly charge of $60.00 USD or
-              £49.91 Pounds for cleaning
+              £50 GBP for cleaning
             </p>
           </div>
         </div>
@@ -368,8 +368,8 @@ function App() {
           <p>
             2 Flats include bedding, indoor bathroom, and kitchen; you will need
             a car or taxi and bus because they are located about 15min. away
-            from campus; the cost per bedroom per night is $90.00 USD or £74.87
-            Pounds plus a one-time weekly charge of $60.00 USD or £49.91 Pounds
+            from campus; the cost per bedroom per night is $90.00 USD or £75
+            GBP plus a one-time weekly charge of $60.00 USD or £50 GBP
             for cleaning
           </p>
           <div className="col-md-6">
