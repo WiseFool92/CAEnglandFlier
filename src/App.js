@@ -151,7 +151,7 @@ function App() {
                     <li>
                       {" "}
                       <a href="https://www.consciousanatomy.com/conscious-anatomy-course-1-1-1">
-                        <Button>$ USD Registration</Button>
+                        <Button>Registration</Button>
                       </a>{" "}
                     </li>
                     {/* <li style={pounds}>
