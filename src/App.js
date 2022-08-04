@@ -127,6 +127,15 @@ function App() {
             On teaching days there will be an opt-in lunch and dinner
             arrangement for approx £25/day (sourced from local shops/cafes)
           </p>
+          <p>
+            Ann Watkins Contact Information:{" "}
+            <a href="tel:+1-860-599-4533" className="p-1">
+              <Button>US 1-860-599-4533</Button>
+            </a>
+            <a href="tel:+0001-860-599-4533">
+              <Button>England +0001-860-599-4533</Button>
+            </a>
+          </p>
           <div className="col-md-12 p-3">
             <div class="card">
               {/* <div class="card" style={card}> */}
@@ -147,11 +156,13 @@ function App() {
                 <p class="card-text">
                   <ul style={list}>
                     <li>Sept. 6 - 9</li>
-                    <li>10:00am - 3:30pm w/Lunch Break (No Food Included)</li>
+                    <li>10:00am - 3:30pm w/Lunch Break (Food Not Included)</li>
                     <li>
                       {" "}
                       <a href="https://www.consciousanatomy.com/conscious-anatomy-course-1-1-1">
-                        <Button>Registration</Button>
+                        <Button>
+                          Registration: Click here for more details
+                        </Button>
                       </a>{" "}
                     </li>
                     {/* <li style={pounds}>
@@ -184,17 +195,21 @@ function App() {
                 <p class="card-text">
                   <ul style={list}>
                     <li>Sept. 12 - 16</li>
-                    <li>10:00am - 7:00pm w/Lunch Break (No Food Included)</li>
+                    <li>10:00am - 7:00pm w/Lunch Break (Food Not Included)</li>
                     <li>
                       {" "}
                       <a href="https://www.consciousanatomy.com/offers/TDy4qw9t/checkout">
-                        <Button>$ USD Registration</Button>
+                        <Button>
+                          $ USD Registration: Click here for more details
+                        </Button>
                       </a>{" "}
                     </li>
                     <li style={pounds}>
                       {" "}
                       <a href="https://www.consciousanatomy.com/offers/wTG6RAgo">
-                        <Button>£ GBP Registration</Button>
+                        <Button>
+                          £ GBP Registration: Click here for more details
+                        </Button>
                       </a>{" "}
                     </li>
                   </ul>
@@ -226,17 +241,21 @@ function App() {
                 <p class="card-text">
                   <ul style={list}>
                     <li>Sept. 12</li>
-                    <li>10:00am - 7:00pm w/Lunch Break (No Food Included)</li>
+                    <li>10:00am - 7:00pm w/Lunch Break (Food Not Included)</li>
                     <li>
                       {" "}
                       <a href="https://www.consciousanatomy.com/offers/2KdCwg3b/checkout">
-                        <Button>$ USD Registration</Button>
+                        <Button>
+                          $ USD Registration: Click here for more details
+                        </Button>
                       </a>{" "}
                     </li>
                     <li style={pounds}>
                       {" "}
                       <a href="https://www.consciousanatomy.com/offers/L5hMZRGv">
-                        <Button>£ GBP Registration</Button>
+                        <Button>
+                          £ GBP Registration: Click here for more details
+                        </Button>
                       </a>{" "}
                     </li>
                   </ul>
@@ -257,17 +276,21 @@ function App() {
                 <p class="card-text">
                   <ul style={list}>
                     <li>Sept. 13 - 14</li>
-                    <li>10:00am - 7:00pm w/Lunch Break (No Food Included)</li>
+                    <li>10:00am - 7:00pm w/Lunch Break (Food Not Included)</li>
                     <li>
                       {" "}
                       <a href="https://www.consciousanatomy.com/offers/6FTVxKYo/checkout">
-                        <Button>$ USD Registration</Button>
+                        <Button>
+                          $ USD Registration: Click here for more details
+                        </Button>
                       </a>{" "}
                     </li>
                     <li style={pounds}>
                       {" "}
                       <a href="https://www.consciousanatomy.com/offers/mCqrb9pg">
-                        <Button>£ GBP Registration</Button>
+                        <Button>
+                          £ GBP Registration: Click here for more details
+                        </Button>
                       </a>{" "}
                     </li>
                   </ul>
@@ -287,17 +310,21 @@ function App() {
                 <p class="card-text">
                   <ul style={list}>
                     <li>Sept. 15 - 16</li>
-                    <li>10:00am - 7:00pm w/Lunch Break (No Food Included)</li>
+                    <li>10:00am - 7:00pm w/Lunch Break (Food Not Included)</li>
                     <li>
                       {" "}
                       <a href="https://www.consciousanatomy.com/offers/Botsvpmr/checkout">
-                        <Button>$ USD Registration</Button>
+                        <Button>
+                          $ USD Registration: Click here for more details
+                        </Button>
                       </a>{" "}
                     </li>
                     <li style={pounds}>
                       {" "}
                       <a href="https://www.consciousanatomy.com/offers/XxSVziYL">
-                        <Button>£ GBP Registration</Button>
+                        <Button>
+                          £ GBP Registration: Click here for more details
+                        </Button>
                       </a>{" "}
                     </li>
                   </ul>
@@ -421,13 +448,13 @@ function App() {
               style={imagesFlat}
             ></img>
             <p>
-            The 2-bedroom Flat in Central Falmouth, on the Artisan Old High
-            Street, includes bedding, an indoor bathroom, kitchen/living/diner,
-            and an outdoor patio. You will need a car, taxi, or bus to travel
-            about 15mins away from campus; the cost per double or twin bedroom
-            per night is $70.00 USD or £60 GBP plus a one-time weekly charge of
-            $60.00 USD or £50 GBP for cleaning
-          </p>
+              The 2-bedroom Flat in Central Falmouth, on the Artisan Old High
+              Street, includes bedding, an indoor bathroom,
+              kitchen/living/diner, and an outdoor patio. You will need a car,
+              taxi, or bus to travel about 15mins away from campus; the cost per
+              double or twin bedroom per night is $70.00 USD or £60 GBP plus a
+              one-time weekly charge of $60.00 USD or £50 GBP for cleaning
+            </p>
           </div>
 
           <div className="col-md-6">
@@ -444,11 +471,11 @@ function App() {
               style={images}
             ></img>
             <p>
-            VW T4 Camper Van stays $50.00, including DIY continental breakfast, (small double sofa bed) with bathroom awning and van kitchen with a low ceiling
+              VW T4 Camper Van stays $50.00, including DIY continental
+              breakfast, (small double sofa bed) with bathroom awning and van
+              kitchen with a low ceiling
             </p>
           </div>
-
-         
         </div>
         <div className="row">
           <h2 style={titles}>Camping</h2>
