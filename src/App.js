@@ -93,7 +93,7 @@ function App() {
         </a>
         <a href="#flierStart">
 
-        <p className="btn btn-success">↓↓ Click or Scroll for Details ↓↓</p>
+        <p className="btn btn-success btn-lg">↓↓ Click or Scroll for Details ↓↓</p>
         </a>
       </header>
 
