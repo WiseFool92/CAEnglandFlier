@@ -91,14 +91,17 @@ function App() {
             style={logoStyle}
           />
         </a>
-        <p className="primary">↓↓ Scroll Down for Details ↓↓</p>
+        <a href="#flierStart">
+
+        <p className="btn btn-success">↓↓ Scroll Down for Details ↓↓</p>
+        </a>
       </header>
 
       <div className="jumbotron section1" style={parallaxLanding}></div>
 
       <div className="container p-3">
         <div className="row">
-          <h1 style={titles}>
+          <h1 style={titles} id="flierStart">
             <strong>Trevellan Magic Space</strong>
           </h1>
           <hr />
