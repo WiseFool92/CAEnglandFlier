@@ -91,7 +91,7 @@ function App() {
             style={logoStyle}
           />
         </a>
-        <p>↓↓ Scroll Down for Details ↓↓</p>
+        <p className="primary">↓↓ Scroll Down for Details ↓↓</p>
       </header>
 
       <div className="jumbotron section1" style={parallaxLanding}></div>
