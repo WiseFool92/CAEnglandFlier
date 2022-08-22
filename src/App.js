@@ -163,7 +163,7 @@ function App() {
                     <li>
                       {" "}
                       <a href="https://www.consciousanatomy.com/conscious-anatomy-course-1-1-1">
-                        <Button>
+                        <Button className="btn btn-success btn-lg">
                           Registration: Click here for more details
                         </Button>
                       </a>{" "}
@@ -202,7 +202,7 @@ function App() {
                     <li>
                       {" "}
                       <a href="https://www.consciousanatomy.com/offers/TDy4qw9t/checkout">
-                        <Button>
+                        <Button className="btn btn-success btn-lg">
                           $ USD Registration: Click here for more details
                         </Button>
                       </a>{" "}
@@ -210,7 +210,7 @@ function App() {
                     <li style={pounds}>
                       {" "}
                       <a href="https://www.consciousanatomy.com/offers/wTG6RAgo">
-                        <Button>
+                        <Button className="btn btn-success btn-lg">
                           £ GBP Registration: Click here for more details
                         </Button>
                       </a>{" "}
@@ -248,7 +248,7 @@ function App() {
                     <li>
                       {" "}
                       <a href="https://www.consciousanatomy.com/offers/2KdCwg3b/checkout">
-                        <Button>
+                        <Button className="btn btn-success btn-lg">
                           $ USD Registration: Click here for more details
                         </Button>
                       </a>{" "}
@@ -256,7 +256,7 @@ function App() {
                     <li style={pounds}>
                       {" "}
                       <a href="https://www.consciousanatomy.com/offers/L5hMZRGv">
-                        <Button>
+                        <Button className="btn btn-success btn-lg">
                           £ GBP Registration: Click here for more details
                         </Button>
                       </a>{" "}
@@ -283,7 +283,7 @@ function App() {
                     <li>
                       {" "}
                       <a href="https://www.consciousanatomy.com/offers/6FTVxKYo/checkout">
-                        <Button>
+                        <Button className="btn btn-success btn-lg">
                           $ USD Registration: Click here for more details
                         </Button>
                       </a>{" "}
@@ -291,7 +291,7 @@ function App() {
                     <li style={pounds}>
                       {" "}
                       <a href="https://www.consciousanatomy.com/offers/mCqrb9pg">
-                        <Button>
+                        <Button className="btn btn-success btn-lg">
                           £ GBP Registration: Click here for more details
                         </Button>
                       </a>{" "}
@@ -317,7 +317,7 @@ function App() {
                     <li>
                       {" "}
                       <a href="https://www.consciousanatomy.com/offers/Botsvpmr/checkout">
-                        <Button>
+                        <Button className="btn btn-success btn-lg">
                           $ USD Registration: Click here for more details
                         </Button>
                       </a>{" "}
@@ -325,7 +325,7 @@ function App() {
                     <li style={pounds}>
                       {" "}
                       <a href="https://www.consciousanatomy.com/offers/XxSVziYL">
-                        <Button>
+                        <Button className="btn btn-success btn-lg">
                           £ GBP Registration: Click here for more details
                         </Button>
                       </a>{" "}
